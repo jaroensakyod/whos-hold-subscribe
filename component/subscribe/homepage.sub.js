@@ -1,4 +1,5 @@
-
+import Image from "next/image"
+import Link from "next/link"
 
 export function Subsubsciptionplan() {
 
@@ -7,7 +8,7 @@ export function Subsubsciptionplan() {
             <div class="panel pricing-table">
               
               <div class="pricing-plan">
-                <img src ='https://img.icons8.com/color/452/discord-logo.png' alt="" class="pricing-img"/>
+                <Image src ='https://img.icons8.com/color/452/discord-logo.png' alt="" class="pricing-img"/>
                 <h2 class="pricing-header">NOOB</h2>
                 <ul class="pricing-features">
                   <ul class="pricing-features-item">Verify</ul>
@@ -15,11 +16,11 @@ export function Subsubsciptionplan() {
                   <ul class="pricing-features-item">Auto Single-Role</ul>
                 </ul>
                 <span class="pricing-price">Free</span>
-                <a href="/register" class="pricing-button">Free trial</a>
+                <Link href="/register" class="pricing-button">Free trial</Link>
               </div>
 {/*               
               <div class="pricing-plan">
-                <img src="https://img.icons8.com/clouds/452/discord-logo.png" alt="" class="pricing-img"/>
+                <Image src="https://img.icons8.com/clouds/452/discord-logo.png" alt="" class="pricing-img"/>
                 <h2 class="pricing-header">PRO</h2>
                 <ul class="pricing-features">
                 <ul class="pricing-features-item">Verify</ul>
@@ -29,11 +30,11 @@ export function Subsubsciptionplan() {
                 <ul class="pricing-features-item">Whitelist</ul>
                 </ul>
                 <span class="pricing-price">$150</span>
-                <a href="/register" class="pricing-button is-featured">Select</a>
+                <Link href="/register" class="pricing-button is-featured">Select</Link>
               </div>
               
               <div class="pricing-plan">
-                <img src="https://img.icons8.com/bubbles/452/discord-logo.png" alt="" class="pricing-img"/>
+                <Image src="https://img.icons8.com/bubbles/452/discord-logo.png" alt="" class="pricing-img"/>
                 <h2 class="pricing-header">Legendary</h2>
                 <ul class="pricing-features">
                 <ul class="pricing-features-item">Pro Plan</ul>
@@ -44,7 +45,7 @@ export function Subsubsciptionplan() {
 
                 </ul>
                 <span class="pricing-price">$400</span>
-                <a href="/register" class="pricing-button">Select</a>
+                <Link href="/register" class="pricing-button">Select</Link>
               </div> */}
               
             </div>
