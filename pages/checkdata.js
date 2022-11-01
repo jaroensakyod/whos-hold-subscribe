@@ -32,7 +32,7 @@ export default function Succ() {
                                         }
                                         
                                       );
-                                      router.push(<Link href="/success"></Link>)
+                                      router.push("/success")
                     } catch(e){
                               const guild = JSON.stringify(discordGuildId)
                               return alert("GuildId: "+ (guild) +" is already!");
@@ -40,39 +40,39 @@ export default function Succ() {
                     
            
           };
-          return <><meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+          return <>
                     <div>
                     <Header />
                     <main>
                       <Bodys />
                               
-                      <div class={styles.outerdiv}>
-                                        <div class={styles.innerdiv}>
-                                                  <div class={styles.front}>
-                                                            <div class={styles.front__bkgphoto}></div>
-                                                            <div class={styles.front__facephoto}></div>
-                                                            <div class={styles.front__text}>
-                                                                      <h3 class={styles.front__textheader}>{projectName}</h3>
-                                                                      <h1 class={styles.front__textheader}>{totalSupply}</h1>
-                                                                      <h3 class={styles.front__textheader}>Guild ID {discordGuildId}</h3>
-                                                                      <p class={styles.front__textpara}>Discord ID {ownerDiscordId}</p>
+                      <div className={styles.outerdiv}>
+                                        <div className={styles.innerdiv}>
+                                                  <div className={styles.front}>
+                                                            <div className={styles.front__bkgphoto}></div>
+                                                            <div className={styles.front__facephoto}></div>
+                                                            <div className={styles.front__text}>
+                                                                      <h3 className={styles.front__textheader}>{projectName}</h3>
+                                                                      <h1 className={styles.front__textheader}>{totalSupply}</h1>
+                                                                      <h3 className={styles.front__textheader}>Guild ID {discordGuildId}</h3>
+                                                                      <p className={styles.front__textpara}>Discord ID {ownerDiscordId}</p>
 
                                                                       
                                                             </div>
                                                   </div>
-                                                  <div class={styles.back}>
+                                                  <div className={styles.back}>
                                                             
                                                                       
-                                                                      <p class={styles.front__textpara}>nft Address : {nftAddress}</p>
-                                                                      <p class={styles.front__textpara}>ownerWalletAddress: {ownerWalletAddress} </p>
-                                                                      <p class={styles.front__textpara}>symbol: {symbol} </p>
-                                                                      <p class={styles.front__textpara}>website: {website} </p>
-                                                                      <p class={styles.front__textpara}>facebook: {facebook} </p>
-                                                                      <p class={styles.front__textpara}>twitter: {twitter} </p>
-                                                                      <p class={styles.front__textpara}>discordInviteLink: {discordInviteLink} </p>
-                                                                      <p class={styles.front__textpara}>etherscan: {etherscan} </p>
-                                                                      <p class={styles.front__textpara}>roleName: {roleName} </p>
-                                                                      <button  className="verify-button" onClick={() => verifyHolder(nftAddress, ownerDiscordId, discordGuildId, ownerWalletAddress, projectName, totalSupply, symbol, website, facebook ,twitter, discordInviteLink, etherscan, planId, roleName)}> Verify</button>
+                                                                      <p className={styles.front__textpara}>nft Address : {nftAddress}</p>
+                                                                      <p className={styles.front__textpara}>ownerWalletAddress: {ownerWalletAddress} </p>
+                                                                      <p className={styles.front__textpara}>symbol: {symbol} </p>
+                                                                      <p className={styles.front__textpara}>website: {website} </p>
+                                                                      <p className={styles.front__textpara}>facebook: {facebook} </p>
+                                                                      <p className={styles.front__textpara}>twitter: {twitter} </p>
+                                                                      <p className={styles.front__textpara}>discordInviteLink: {discordInviteLink} </p>
+                                                                      <p className={styles.front__textpara}>etherscan: {etherscan} </p>
+                                                                      <p className={styles.front__textpara}>roleName: {roleName} </p>
+                                                                      <button className="verify-button" onClick={() => verifyHolder(nftAddress, ownerDiscordId, discordGuildId, ownerWalletAddress, projectName, totalSupply, symbol, website, facebook ,twitter, discordInviteLink, etherscan, planId, roleName)}> Verify</button>
                                                                       <Link href="/register" className="back-button">Back</Link>
                                                   </div>              
                                                   
