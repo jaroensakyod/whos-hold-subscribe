@@ -4,7 +4,6 @@ import { Footer } from "../../component/footer"
 
 export function Registatuinsubsubsciptionplan() {
 
-
           return <>
 
                     <Header />
@@ -53,8 +52,7 @@ export function Registatuinsubsubsciptionplan() {
 
                                                             <label for="planId">planId</label>
                                                             <select class="inputtext" id="planId" name="planId">
-                                                                      {/* <option value="3">Legendary</option>
-                                                  <option value="2">Pro</option> */}
+                                                                      
                                                                       <option value="1">Noob</option>
                                                             </select>
 

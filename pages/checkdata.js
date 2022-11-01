@@ -4,7 +4,7 @@ import styles from '../styles/checkdata.module.scss'
 import { Header } from "../component/header"
 import { Bodys } from "../component/bodys"
 import { Footer } from "../component/footer"
-import styles2 from "../styles/Home.module.css"
+import Link from 'next/link';
 
 
 export default function Succ() {
@@ -73,7 +73,7 @@ export default function Succ() {
                                                                       <p class={styles.front__textpara}>etherscan: {etherscan} </p>
                                                                       <p class={styles.front__textpara}>roleName: {roleName} </p>
                                                                       <button   className="verify-button" onClick={() => verifyHolder(nftAddress, ownerDiscordId, discordGuildId, ownerWalletAddress, projectName, totalSupply, symbol, website, facebook ,twitter, discordInviteLink, etherscan, planId, roleName)}> Verify</button>
-                                                                      <a href="/register" className="back-button">Back</a>
+                                                                      <Link href="/register" className="back-button">Back</Link>
                                                   </div>              
                                                   
                                         </div>
