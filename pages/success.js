@@ -1,6 +1,6 @@
 import styles from '../styles/Getbot.module.css'
 
-export default function Succ2() {
+export default function Success() {
           return <>
                     <aside class={styles.profilecard}>
                               <header className={styles.header}>

@@ -9,7 +9,7 @@ export function Bodys() {
                           
                                   <p className={styles.description}>
                                     Create By{' '}
-                                    <code className={styles.code}>💻 SavePlanet</code>
+                                    <code>💻 SavePlanet</code>
                                   </p>
                     </> 
           )

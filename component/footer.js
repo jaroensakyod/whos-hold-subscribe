@@ -9,7 +9,7 @@ export function Footer() {
                                         rel="noopener noreferrer"
                               >
                                         Powered by{' '}
-                                        <span className={styles.logo}>
+                                        <span>
                                                   💻 SavePlanet
                                         </span>
                               </a>
