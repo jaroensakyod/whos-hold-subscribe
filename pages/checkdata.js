@@ -13,7 +13,7 @@ export default function Succ() {
           const verifyHolder = async (nftAddress, ownerDiscordId, discordGuildId, ownerWalletAddress, projectName, totalSupply, symbol, website, facebook ,twitter, discordInviteLink, etherscan, planId, roleName) => {
                     try {
                               const response = await axios.post(
-                                        `https://charming-puce-tutu.cyclic.app/v1/subscription/subscribe/`,
+                                        `http://68.183.176.4/v1/subscription/subscribe/`,
                                         {
                                                 nftAddress: nftAddress,
                                                 ownerDiscordId: ownerDiscordId,
