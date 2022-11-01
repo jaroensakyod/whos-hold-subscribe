@@ -32,7 +32,7 @@ export default function Succ() {
                                         }
                                         
                                       );
-                                      router.push("/success")
+                                      router.push(<Link href="/success"></Link>)
                     } catch(e){
                               const guild = JSON.stringify(discordGuildId)
                               return alert("GuildId: "+ (guild) +" is already!");
