@@ -3,7 +3,6 @@ import { Bodys } from "../component/bodys"
 import { Footer } from "../component/footer"
 import { Subsubsciptionplan } from "../component/subscribe/homepage.sub"
 import styles from "../styles/Home.module.css"
-import Image from "next/link"
 import Link from "next/link"
 
 
@@ -18,7 +17,7 @@ export function Homepage() {
                                                             <div class="panel pricing-table">
 
                                                                       <div class="pricing-plan">
-                                                                                <Image src='https://img.icons8.com/color/452/discord-logo.png' alt="" class="pricing-img" />
+                                                                                <img src='https://img.icons8.com/color/452/discord-logo.png' alt="" class="pricing-img" />
                                                                                 <h2 class="pricing-header">NOOB</h2>
                                                                                 <ul class="pricing-features">
                                                                                           <ul class="pricing-features-item">Verify</ul>

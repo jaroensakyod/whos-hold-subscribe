@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 import Link from "next/link"
 
 export function Subsubsciptionplan() {
@@ -8,7 +8,7 @@ export function Subsubsciptionplan() {
             <div class="panel pricing-table">
               
               <div class="pricing-plan">
-                <Image src ='https://img.icons8.com/color/452/discord-logo.png' alt="" class="pricing-img"/>
+                <img src ='https://img.icons8.com/color/452/discord-logo.png' alt="" class="pricing-img"/>
                 <h2 class="pricing-header">NOOB</h2>
                 <ul class="pricing-features">
                   <ul class="pricing-features-item">Verify</ul>
@@ -16,7 +16,7 @@ export function Subsubsciptionplan() {
                   <ul class="pricing-features-item">Auto Single-Role</ul>
                 </ul>
                 <span class="pricing-price">Free</span>
-                <Link href="/register" class="pricing-button">Free trial</Link>
+                <Link href="/register" class="pricing-button" >Free trial</Link>
               </div>
 {/*               
               <div class="pricing-plan">

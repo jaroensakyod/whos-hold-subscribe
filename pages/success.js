@@ -1,5 +1,4 @@
 import styles from '../styles/Getbot.module.css'
-import Image from 'next/image'
 
 export default function Success() {
           return <>
@@ -7,7 +6,7 @@ export default function Success() {
                               <header className={styles.header}>
 
                                         <a target="_blank" href="#" className={styles.a}>
-                                                  <Image src="https://img.icons8.com/color/452/discord-logo.png" class="hoverZoomLink" />
+                                                  <img src="https://img.icons8.com/color/452/discord-logo.png" class="hoverZoomLink" />
                                         </a>
 
 

@@ -72,7 +72,7 @@ export default function Succ() {
                                                                       <p class={styles.front__textpara}>discordInviteLink: {discordInviteLink} </p>
                                                                       <p class={styles.front__textpara}>etherscan: {etherscan} </p>
                                                                       <p class={styles.front__textpara}>roleName: {roleName} </p>
-                                                                      <button   className="verify-button" onClick={() => verifyHolder(nftAddress, ownerDiscordId, discordGuildId, ownerWalletAddress, projectName, totalSupply, symbol, website, facebook ,twitter, discordInviteLink, etherscan, planId, roleName)}> Verify</button>
+                                                                      <button  className="verify-button" onClick={() => verifyHolder(nftAddress, ownerDiscordId, discordGuildId, ownerWalletAddress, projectName, totalSupply, symbol, website, facebook ,twitter, discordInviteLink, etherscan, planId, roleName)}> Verify</button>
                                                                       <Link href="/register" className="back-button">Back</Link>
                                                   </div>              
                                                   
